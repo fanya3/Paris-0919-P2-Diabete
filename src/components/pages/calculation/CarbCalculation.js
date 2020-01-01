@@ -9,8 +9,8 @@ import smileyHypoMobBlue from "../../../assets/icons/picto-hypo-bleu-mob.png";
 import smileySetParamOrange from "../../../assets/icons/picto-param-orange.png";
 import smileySetParamMobOrange from "../../../assets/icons/picto-param-orange-mob.png";
 
-import './CarbCalculation.css';
 import 'react-input-range/lib/css/index.css';
+import './CarbCalculation.css';
 
 
 class CarbCalculation extends React.Component {

@@ -59,7 +59,7 @@
     box-shadow : 4px;
     border-top: solid 5px blueviolet ;
     margin-top: 1vw; 
-    margin-bottom: 6vw;
+    margin-bottom: 3vw;
     font-family: Barlow;
     width: 100%;
     padding:1vw;
@@ -67,11 +67,18 @@
 
   /*FIST, SECOND AND THIRD ARTICLE*/
   
-  .firstArticleTitle, .firstArticle-substitle, .Title-sport, .thirdArticleTitle{
+  .firstArticleTitle, .firstArticle-substitle, .Title-sport {
     text-align: center;
     line-height: 1.1em ;
-    margin: 3px;
+    margin: 1em;
   }
+
+ .thirdArticleTitle{
+    text-align: center;
+    line-height: 1.1em ;
+    margin: 0.2em;
+  }
+
 
   .firstArticleTitle, .thirdArticleTitle, .secondArticleTitle{
     text-align: center;
@@ -102,14 +109,14 @@
 
 .pyctoAndTitle{
   display: grid;
-  grid-template-columns: 25% 75%;;
+  grid-template-columns: 25% 75%;
 }
 
         
 .photo1{
   width: 100%;
   display: block;
-  margin: 2vw auto 3.5vw auto;
+  margin: 2vw auto 6vw auto;
   box-shadow: 10px 10px 0 blueviolet;
 }
 
@@ -164,10 +171,14 @@
   /*      THIRD ARTICLE      */
 
   /*SIZE OF PYCTO*/
+
   .pyctoAndTitle{
+    display: grid;
+    grid-template-columns: 20% 80%;
     width: 100%;
     height: auto;
   }
+
 
   .picto-coeur{
     width: 100%;
@@ -183,4 +194,10 @@
     font-size: 1.2em;
   }
 
+  .photo1{
+    width: 80%;
+    display: block;
+    margin: 2vw auto;
+    box-shadow: 10px 10px 0 blueviolet;
+  }
 }

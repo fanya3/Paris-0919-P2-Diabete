@@ -16,8 +16,8 @@ A web app which helps teenagers to deal with their diabetes everyday. Features :
 #### Installation
 
 ```bash
-git clone https://github.com/cendrine-b/la-loupe-0217-wiigle.git
-cd la-loupe-0217-wiigle
+git clone https://github.com/fanya3/Projet2-OhmyG.git
+cd Projet2-OhmyG
 npm install
 ```
 
