@@ -17,7 +17,7 @@
 
  @keyframes slide-in-bottom {
     0% {
-      transform: translateY(1000px);
+      transform: translateY(100%);
       opacity: 0;
     }
     100% {

@@ -60,7 +60,7 @@
 }
 
 .footerContainer{
-    margin-top: 12.5vw;
+    margin-top: 7vw;
     width: 100%;
 }
 
@@ -85,9 +85,6 @@
     .footer-calculation, .footer-homepage, .footer-news, .footer-meal, .footer-info{
         display: flex;
         justify-content: center;
-        bottom: 0;
         width: 100%;
-        display: flex;
-        bottom : 0;
     }
 }

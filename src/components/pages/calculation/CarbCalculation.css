@@ -20,9 +20,11 @@ input:active {
 
 .input-range__track--active {
   background: #ffa476;
+  -webkit-appearance: none;
 }
 
 .input-range__slider {
+  -webkit-appearance: none;
   background: white;
   border: 1px solid black;
   box-shadow: 1.5px 1.5px 0px grey;
@@ -179,6 +181,7 @@ input:active {
 }
 
 .carbCalculation-liItem {
+  /* border: solid white 3px; */
   background-color: white;
   list-style: none;
   font-family: "Barlow", "sans serif";

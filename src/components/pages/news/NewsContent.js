@@ -19,7 +19,7 @@ class NewsContent extends React.Component {
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           />
-          <h2 className='newsContent-testymony'>Temoignages</h2>
+          <h2 className='newsContent-testymony'>Témoignages</h2>
           <Youtube
             id="video2"
             videoId="A320QGM80Z8"
